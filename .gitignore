@@ -1,0 +1,9 @@
+/document_storage
+/indexer_storage_am
+/indexer_storage_nz
+/master_storage
+/fullchain.sh
+
+__pycache__
+node_modules
+

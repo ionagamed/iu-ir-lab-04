@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>asdf asdf</title>
+  </head>
+  <body>
+    <form action="#" method="GET">
+      <input type="text" name="query" placeholder="search" />
+      <input type="submit" value="do search" />
+    </form>
+
+    {{#if showResults}}
+      Relevant docs for <strong>'{{query}}'</strong>
+      <ul>
+        {{#each results}}
+          <li>
+            <a href="{{link}}">{{text}}</a>
+            |
+            <a href="{{text}}">original</a>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </body>
+</html>
