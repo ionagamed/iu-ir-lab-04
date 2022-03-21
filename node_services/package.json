@@ -20,7 +20,7 @@
     "fastify": "^2.12.1",
     "handlebars": "^4.7.3",
     "mongoose": "^5.9.3",
-    "node-lmdb": "^0.8.0",
+    "node-lmdb": "^0.9.7",
     "point-of-view": "^3.7.2",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
